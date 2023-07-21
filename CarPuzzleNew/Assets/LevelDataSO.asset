@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0705edca7df05647929c4b13a73dbee, type: 3}
+  m_Name: LevelDataSO
+  m_EditorClassIdentifier: 
+  levelData:
+  - width: 5
+    height: 5
+    carPositionIndex: {x: 3, y: 2}
+    garagePositionIndex: {x: 2, y: 1}
+    blockedPositionIndices:
+    - {x: 0, y: 0}
+    - {x: 1, y: 0}
+    - {x: 2, y: 0}
+    - {x: 3, y: 0}
+    - {x: 0, y: 2}
+    - {x: 2, y: 3}
+    - {x: 3, y: 3}
+    - {x: 4, y: 3}
+    - {x: 0, y: 4}
+  levelDataCSV:
+  - {fileID: 4900000, guid: 4b50b1fce1f62ca449ff5afd901c00b9, type: 3}
+  test:
+  - w
+  - w
+  - w
+  - w
+  - 'w
+
+    w'
+  - o
+  - o
+  - g
+  - 'w
+
+    w'
+  - o
+  - w
+  - o
+  - 'w
+
+    w'
+  - c
+  - o
+  - o
+  - 'w
+
+    w'
+  - w
+  - w
+  - w
+  - w
